@@ -105,6 +105,12 @@ c93056
 }
 
 /****ntr*******/
+
+.ntr-img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
 .ntr-heading {
   color: black;
   font-weight: bold;
