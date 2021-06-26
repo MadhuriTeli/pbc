@@ -1,0 +1,215 @@
+/* You can add global styles to this file, and also import other style files */
+.custom-bakground {
+  /*background: linear-gradient( rgb(228, 133, 133), 10%, White);
+ background: linear-gradient(rgb(133, 193, 228), 20%, White);
+ background: linear-gradient(rgb(228, 46, 22), 20%, White);
+  background: linear-gradient(rgb(243, 204, 32), 20%, White);
+DA0037 c08a55 FF8303
+db6582 background-color: #FFD8CC;
+c93056
+ */
+  background-color: #FFD8CC;
+}
+
+#ovr,
+#cnt,
+#ntr-div,
+#prtn,
+#pr,
+#mn {
+  height: 100%;
+  background-image: linear-gradient(rgb(133, 193, 228), 20%, White);
+}
+
+/*****8Partner*****/
+.img1,
+.img2 {
+  width: 200px;
+  height: 200px;
+}
+
+.pt {
+  margin-top: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.prt-heading {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Optima';
+}
+
+/****** Program ****/
+.fa {
+  padding: 10px 5px 10px 5px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.social>h4 {
+  text-align: center;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 60px;
+  height: 50px;
+  margin: 5px;
+  line-height: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+/****ntr*******/
+.ntr-heading {
+  color: black;
+  font-weight: bold;
+  font-family: 'Optima';
+}
+
+p>a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+p>a:hover {
+  text-decoration: underline;
+  color: rgb(94, 94, 207);
+}
+
+/****** main *******/
+.welcome {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Optima';
+}
+
+.company {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Optima';
+}
+
+.main {
+  margin-top: 50px;
+  vertical-align: middle;
+}
+
+.logo {
+  margin-top: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.fade-in-image {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/*********** header *************/
+.nav-link {
+  color: black;
+  font-weight: bold;
+  margin: 30px 20px;
+  font-family: 'Helvetica Neue';
+}
+
+.nav-link>a {
+  font-weight: bold;
+}
+
+.nav-item {
+  margin: 10px 10px;
+}
+
+.active {
+  /*background-color: rgb(241, 174, 174);*/
+}
+
+.nav-link>a:hover {
+  border: 1px solid rgb(211, 123, 123);
+  font-weight: bold;
+}
+
+/*
+  color: black;
+  font-weight: bold;
+  margin: 30px 20px;
+  font-family: 'Helvetica Neue';
+}
+
+*/
+@media (min-width: 768px) {
+  .nav-item {
+    margin: none;
+  }
+}
+
+/***********Contact-us88*/
+.contact-us-heading {
+  color: black;
+  font-weight: bold;
+  font-family: 'Optima';
+}
