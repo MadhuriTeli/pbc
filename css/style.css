@@ -124,6 +124,10 @@ color: white;
 }
 
 /****ntr*******/
+
+#ntr-div{
+margin-top: 50px;
+}
 .g-ytsubscribe{
   margin: 0 20px 0px 20px;
 }
@@ -147,7 +151,7 @@ text-align: justify;
 }
 
 p>a {
-  text-decoration: none;
+  text-decoration: underline;
   color: white;
   font-weight: bold;
 }
