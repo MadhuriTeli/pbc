@@ -10,80 +10,88 @@
   <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Redressed&display=swap" rel="stylesheet">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
   <link rel="stylesheet" href="../css/style.css">
   <title>PBC</title>
 </head>
 
 <body>
+
   <div id="ovr">
-    <header>
+    <header id="topheader">
       <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="d-md-flex d-block flex-row mx-md-auto mx-0">
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link " href="overview.html">Overview</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="out-program.html">Our Programs</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="partner.html">Our Partner
-                    Platforms</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact-us.html">Contact us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="ntr.html">NTR 4
-                    Bharath Ratna</a>
-                </li>
-              </ul>
-            </div>
-          </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="../index.html"> <img class="header-logo" src="../images/Untitled.jpg" /></a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item ">
+              <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link " href="overview.html">Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="out-program.html">Our Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="partner.html">Our Partner
+                Platforms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ntr.html">NTR 4
+                Bharath Ratna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact us</a>
+            </li>
+
+          </ul>
         </div>
       </nav>
     </header>
     <div id="overview">
       <div class="container">
-        <h1 class="ovr-heading">Who are we? </h1>
-        <p class="ovr-para">People Broadcasting Company is a prime mover in the genre of Infotainment. PBC focuses on
-          Infotainment -
-          Providing
-          you Fact-checked information with a touch of entertainment. It is first-of-it’s-kind YouTube Channel,
-          digitally
-          spreading up to date information with in-depth research and accuracy in the field of Politics, Government
-          Policies,
-          development news, information technology, health and healthcare and basically presenting every side of the
-          trending
-          stories you see on Facebook, Twitter and Google. So whether you need to know more about national or
-          international
-          issues, stance of government on different controversies, important aspects of south industry, the latest in
-          education
-          and health, Bangla news or regional news... this is where you can find it all. PBC aspires to win the trust of
-          masses
-          with credible information sharing.</p>
+        <div>
+          <h1 class="ovr-heading">Who are we? </h1>
+          <p class="ovr-para">People Broadcasting Company is a prime mover in the genre of Infotainment. PBC focuses on
+            Infotainment -
+            Providing
+            you Fact-checked information with a touch of entertainment. It is first-of-it’s-kind YouTube Channel,
+            digitally
+            spreading up to date information with in-depth research and accuracy in the field of Politics, Government
+            Policies,
+            development news, information technology, health and healthcare and basically presenting every side of the
+            trending
+            stories you see on Facebook, Twitter and Google. So whether you need to know more about national or
+            international
+            issues, stance of government on different controversies, important aspects of south industry, the latest in
+            education
+            and health, Bangla news or regional news... this is where you can find it all. PBC aspires to win the trust
+            of
+            masses
+            with credible information sharing.</p>
+        </div>
+        <div>
+          <img class="logo" src="../images/Untitled.jpg" />
+        </div>
       </div>
     </div>
   </div>
-
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
   </script>
-
+  <script src="../javascript/script.js"></script>
 </body>
 
 </html>

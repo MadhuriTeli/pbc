@@ -58,7 +58,10 @@ color: white;
   text-align: center;
   font-family: 'Optima';
 }
-
+#many{
+  margin-top: 30px;
+  text-align: center;
+}
 /****** Program ****/
 .fa {
   padding: 10px 5px 10px 5px;
@@ -191,11 +194,22 @@ p>a:hover {
 }
 
 /*********** header *************/
+header{
+  margin: 10px 0;
+}
+.navbar-toggler{
+  background-color: rgb(205, 195, 224);
+}
+
+.header-logo{
+  width: 15%;
+  height: 15%;
+}
 .nav-link {
+  font-size: 18px;
   color: white;
   font-weight: bold;
-  margin: 30px 20px;
-  font-family: 'Helvetica Neue';
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .nav-link>a {
@@ -206,15 +220,19 @@ p>a:hover {
   margin: 10px 10px;
 }
 
-.active {
-  /*background-color: rgb(241, 174, 174);*/
+/* .active {
+ border-bottom: 1px solid rgb(196, 31, 31);
+} */
+.active{
+   border-bottom: 1px solid rgb(196, 31, 31);
 }
 
-.nav-link>a:hover {
-  border: 1px solid rgb(211, 123, 123);
+.nav-link:hover,
+.header-logo:hover {
+  border-bottom: 1px solid rgb(196, 31, 31);
+  color: #617fbe;
   font-weight: bold;
 }
-
 /*
   color: black;
   font-weight: bold;
