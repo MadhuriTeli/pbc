@@ -124,16 +124,26 @@ color: white;
 }
 
 /****ntr*******/
-
+.g-ytsubscribe{
+  margin: 0 20px 0px 20px;
+}
 .ntr-img{
 display: block;
 margin-left: auto;
 margin-right: auto;
 }
 .ntr-heading {
+  margin-top: 10px;
   color: white;
   font-weight: bold;
   font-family: 'Optima';
+}
+.ntr-sm-heading{
+margin: 10px 0px;
+}
+.ntr-para{
+  margin: 10px 0;
+text-align: justify;
 }
 
 p>a {
@@ -224,12 +234,12 @@ header{
  border-bottom: 1px solid rgb(196, 31, 31);
 } */
 .active{
-   border-bottom: 1px solid rgb(196, 31, 31);
+   border-bottom: 2px solid rgb(196, 31, 31);
 }
 
 .nav-link:hover,
 .header-logo:hover {
-  border-bottom: 1px solid rgb(196, 31, 31);
+  border-bottom: 2px solid rgb(196, 31, 31);
   color: #617fbe;
   font-weight: bold;
 }
