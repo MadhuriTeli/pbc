@@ -7,6 +7,9 @@
 DA0037 c08a55 FF8303
 db6582 background-color: #FFD8CC;
 c93056
+background-image: linear-gradient(rgb(133, 193, 228), 20%, White);
+
+
  */
   background-color: #FFD8CC;
 }
@@ -17,9 +20,22 @@ c93056
 #prtn,
 #pr,
 #mn {
-  height: 100%;
-  background-image: linear-gradient(rgb(133, 193, 228), 20%, White);
+
+  
 }
+
+body{
+ height: 100%;
+ background-image:url("../images/bg.png");
+color: white;
+}
+
+/*****Overview*****/
+.ovr-heading,
+.ovr-para {
+color: white;
+}
+
 
 /*****8Partner*****/
 .img1,
@@ -37,7 +53,7 @@ c93056
 }
 
 .prt-heading {
-  color: black;
+  color: white;
   font-weight: bold;
   text-align: center;
   font-family: 'Optima';
@@ -112,14 +128,14 @@ margin-left: auto;
 margin-right: auto;
 }
 .ntr-heading {
-  color: black;
+  color: white;
   font-weight: bold;
   font-family: 'Optima';
 }
 
 p>a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
@@ -130,7 +146,7 @@ p>a:hover {
 
 /****** main *******/
 .welcome {
-  color: black;
+  color: white;
   font-weight: bold;
   text-align: center;
   font-family: 'Optima';
@@ -176,7 +192,7 @@ p>a:hover {
 
 /*********** header *************/
 .nav-link {
-  color: black;
+  color: white;
   font-weight: bold;
   margin: 30px 20px;
   font-family: 'Helvetica Neue';
@@ -215,7 +231,7 @@ p>a:hover {
 
 /***********Contact-us88*/
 .contact-us-heading {
-  color: black;
+  color: white;
   font-weight: bold;
   font-family: 'Optima';
 }
