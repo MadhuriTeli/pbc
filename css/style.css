@@ -38,11 +38,6 @@ color: white;
 
 
 /*****8Partner*****/
-.img1,
-.img2 {
-  width: 200px;
-  height: 200px;
-}
 
 .pt {
   margin-top: 60px;
@@ -63,6 +58,14 @@ color: white;
   text-align: center;
 }
 /****** Program ****/
+.img11{
+   width: 100px;
+}
+.img12 {
+   width: 50px;
+}
+
+
 .fa {
   padding: 10px 5px 10px 5px;
   font-size: 30px;
@@ -124,10 +127,6 @@ color: white;
 }
 
 /****ntr*******/
-
-#ntr-div{
-margin-top: 50px;
-}
 .g-ytsubscribe{
   margin: 0 20px 0px 20px;
 }
@@ -150,7 +149,8 @@ margin: 10px 0px;
 text-align: justify;
 }
 
-p>a {
+.petition {
+  font-size: 22px;
   text-decoration: underline;
   color: white;
   font-weight: bold;
@@ -158,7 +158,11 @@ p>a {
 
 p>a:hover {
   text-decoration: underline;
-  color: rgb(94, 94, 207);
+  color: rgb(150, 150, 231);
+}
+
+#ntr-div{
+  margin-bottom: 50px;
 }
 
 /****** main *******/
@@ -216,11 +220,11 @@ header{
 }
 
 .header-logo{
-  width: 15%;
-  height: 15%;
+  width: 20%;
+  height: 20%;
 }
 .nav-link {
-  font-size: 18px;
+  font-size: 15px;
   color: white;
   font-weight: bold;
   font-family:Georgia, 'Times New Roman', Times, serif;
