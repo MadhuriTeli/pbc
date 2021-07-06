@@ -19,6 +19,7 @@ body{
  height: 100%;
  background-image:url("../images/bg.png");
 color: white;
+font-family:  Helvetica, sans-serif;
 }
 
 /*****Overview*****/
@@ -49,6 +50,31 @@ color: white;
   text-align: center;
 }
 /****** Program ****/
+
+.good-news-image,
+.Straight-image
+{
+width:20%
+}
+
+.Straight-image {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.news-icons{
+margin: 10px;
+}
+
+
+
+.programs-category{
+text-align: center;
+font-weight: bolder;
+margin: 10px;
+}
+
 .img11{
    width: 100px;
 }
@@ -122,6 +148,7 @@ color: white;
   margin: 0 20px 0px 20px;
 }
 .ntr-img{
+  width: 80%;
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -130,7 +157,7 @@ margin-right: auto;
   margin-top: 10px;
   color: white;
   font-weight: bold;
-  font-family: 'Optima';
+  /* font-family: 'Optima'; */
 }
 .ntr-sm-heading{
 margin: 10px 0px;
@@ -161,14 +188,14 @@ p>a:hover {
   color: white;
   font-weight: bold;
   text-align: center;
-  font-family: 'Optima';
+  /* font-family: 'Optima'; */
 }
 
 .company {
   color: red;
   font-weight: bold;
   text-align: center;
-  font-family: 'Optima';
+  /* font-family: 'Optima'; */
 }
 
 .main {
@@ -215,10 +242,19 @@ header{
   height: 20%;
 }
 .nav-link {
-  font-size: 15px;
+  font-size: 16px;
   color: white;
   font-weight: bold;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  /* font-family:Georgia, 'Times New Roman', Times, serif; */
+}
+
+.navbar.center .navbar-inner {
+  text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+  display: inline-block;
+  float: none;
 }
 
 .nav-link>a {
@@ -260,12 +296,66 @@ header{
 .contact-us-heading {
   color: white;
   font-weight: bold;
-  font-family: 'Optima';
+  /* font-family: 'Optima'; */
 }
 /**************Our Team**********/
 ol>li{
   font-size: 20px;
 }
+
+
+
+
+
+
+  /* Styling column */
+  .column {
+    float: left;
+    width: 33%;
+    margin-bottom: 16px;
+    padding: 2px 10px;
+  }
+
+  /* Column width change depends
+        on screen size */
+  @media screen and (max-width: 670px) {
+    .column {
+      width: 100%;
+      text-align: none;
+    }
+  }
+
+  /* Card designing */
+  .card {
+    background-color: #091650;
+    border: 1px solid black;
+  }
+
+  .container-c {
+   margin-left: auto;
+   margin-right: auto;
+  }
+
+
+  .container-c::after,
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+ 
+
+  /* Margin first member of team */
+  #gfg {
+    float: none;
+    margin: auto;
+  }
+
+
+
+
+
 
 /***********Join us ************/
 ul>li>a{
@@ -277,3 +367,20 @@ ul>li>a:hover{
   text-decoration: underline;
   color: rgb(140, 152, 207);
 }
+
+/***********Indepenedence ************/
+.test {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 42%;
+  margin-bottom: 50px;
+}
+
+.AClass {
+  color: rgb(2, 2, 2);
+  font-size: 40px;
+  position: relative;
+  right: 340px
+}
+
