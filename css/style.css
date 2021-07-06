@@ -304,7 +304,9 @@ ol>li{
 }
 
 
-
+.our-team-center{
+margin-top: 60px;
+}
 
 
 
@@ -312,13 +314,13 @@ ol>li{
   .column {
     float: left;
     width: 33%;
-    margin-bottom: 16px;
+    margin-bottom: 30px;
     padding: 2px 10px;
   }
 
   /* Column width change depends
         on screen size */
-  @media screen and (max-width: 670px) {
+  @media screen and (max-width: 800px) {
     .column {
       width: 100%;
       text-align: none;
@@ -327,7 +329,7 @@ ol>li{
 
   /* Card designing */
   .card {
-    background-color: #091650;
+    background-color: #c21627;
     border: 1px solid black;
   }
 
