@@ -396,4 +396,10 @@ ul>li>a:hover{
   position: relative;
   right: 340px
 }
-
+/***********Our Leader*******/
+.leader-img{
+  width: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
