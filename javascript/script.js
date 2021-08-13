@@ -2,18 +2,18 @@
 //   $(this).hide();
 // })
 
-$(document).ready(function(){
+$(document).ready(function () {
 
- $(".close").click(function(){
-   $('.container').hide();
-   $('#mn').show();
-   
- });
-  
-  $(".ind-img").click(function(){
-   $('.container').hide();
-   $('#mn').show();
-   
-  });
+  // $(".close").click(function () {
+  //   $('.container').hide();
+  //   $('#mn').show();
+
+  // });
+
+  // $(".ind-img").click(function () {
+  //   $('.container').hide();
+  //   $('#mn').show();
+
+  // });
 
 });
