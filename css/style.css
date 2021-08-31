@@ -403,3 +403,15 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 }
+
+
+/***********Contest*******/
+.contest-img{
+  width: 35%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.contest-terms{
+  margin: 10px;
+}
