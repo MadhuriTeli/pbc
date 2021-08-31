@@ -415,3 +415,10 @@ margin-right: auto;
 .contest-terms{
   margin: 10px;
 }
+#pbc-button{
+position: absolute;
+right: 0;
+ top: 0;
+ margin-top: 100px;
+ margin-right: 30px;
+}
